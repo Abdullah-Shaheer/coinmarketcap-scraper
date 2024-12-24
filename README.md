@@ -41,5 +41,5 @@ The scraped data is stored in:
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/Abdullah-Shaheer/coinmarketcap-scraper.git
-   cd coinmarketcap-scraper
+   git clone https://github.com/Abdullah-Shaheer/coinmarketcap_scraper.git
+   cd coinmarketcap_scraper
