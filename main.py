@@ -65,7 +65,7 @@ def scrape_all_coins(soup):
             # If no names were found, attempt fallback parsing
             if not currency_name or not currency_nick_name or not price:
                 spans = td.find("a").find_all("span")
-                for i in spans[2]:
+                for i in spans[1]:
                     currency_name = i.text
                 currency_nick_name = td.find('a').find("span", {'class': 'crypto-symbol'}).text
                 price = table_datas[3].text
