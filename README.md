@@ -36,10 +36,3 @@ The scraped data is stored in:
 3. **Excel File**: `crypto_trends.xlsx`
 
 ---
-
-### **How to Run**
-
-1. **Clone this repository**:
-   ```bash
-   git clone https://github.com/Abdullah-Shaheer/coinmarketcap_scraper.git
-   cd coinmarketcap_scraper
